@@ -11,8 +11,29 @@ li {
   list-style-type: none;
   margin-right: 0.5rem;
   line-height: 28px;
+}
+h1 a:link {
   color: white;
 }
 a:link {
   text-decoration: none;
+}
+main {
+  background-color: rgb(243, 240, 233);
+}
+article {
+  max-width: fit-contents;
+  background-color: white;
+}
+.post-date {
+  color: darkgray;
+}
+.post-content a:link {
+  color: black;
+}
+.post-content a:active {
+  color: #deb887;
+}
+.post-content a:hover {
+  color: #6495ed;
 }
