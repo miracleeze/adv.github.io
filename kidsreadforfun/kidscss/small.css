@@ -22,7 +22,6 @@ main {
   background-color: rgb(243, 240, 233);
 }
 article {
-  max-width: fit-contents;
   background-color: white;
 }
 .post-date {
