@@ -15,7 +15,7 @@ li {
 }
 
 h1 a:link {
-  background-color: white;
+  background-color: rgba(162, 162, 163, 0.315);
 }
 
 a:link {
@@ -44,6 +44,15 @@ article {
 
 .post-content a:hover {
   background-color: antiquewhite;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: rgba(162, 162, 163, 0.315);
 }
 
 /*# sourceMappingURL=small.css.map */
