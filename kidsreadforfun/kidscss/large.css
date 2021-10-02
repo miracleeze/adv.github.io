@@ -1,0 +1,18 @@
+@media only screen and (min-width: 80em) {
+  h1,
+nav,
+li {
+    font-family: "lora", serif;
+    text-align: left;
+    list-style-type: none;
+    margin-right: 0.5rem;
+    line-height: 28px;
+  }
+
+  article .post-content {
+    align-content: center;
+    text-align: justify;
+  }
+}
+
+/*# sourceMappingURL=large.css.map */
