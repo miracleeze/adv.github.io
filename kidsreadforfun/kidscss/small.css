@@ -27,15 +27,15 @@ main {
 }
 
 article {
-  background-color: white;
+  background-color: antiquewhite;
 }
 
 .post-date {
-  color: darkgray;
+  color: red;
 }
 
 .post-content a:link {
-  color: black;
+  color: #22e479;
 }
 
 .post-content a:active {
@@ -43,7 +43,7 @@ article {
 }
 
 .post-content a:hover {
-  background-color: antiquewhite;
+  background-color: whitesmoke;
 }
 
 h1,

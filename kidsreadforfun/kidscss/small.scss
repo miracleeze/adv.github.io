@@ -29,19 +29,19 @@ main {
   background-color: $body-background-color;
 }
 article {
-  background-color: white;
+  background-color: antiquewhite;
 }
 .post-date {
-  color: darkgray;
+  color: red;
 }
 .post-content a:link {
-  color: black;
+  color: rgb(34, 228, 121);
 }
 .post-content a:active {
   color: #deb887;
 }
 .post-content a:hover {
-  background-color: antiquewhite;
+  background-color: whitesmoke;
 }
 h1,
 h2,
