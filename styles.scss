@@ -1,7 +1,7 @@
 /* variables will follow*/
 $break-small: 20em;
-$break-medium: 30em;
-$break-large: 50em;
+$break-medium: 31em;
+$break-large: 60em;
 
 // colors
 $body-background-color: gray;
@@ -9,33 +9,14 @@ $form-background-color: white;
 $input-color: white;
 $headlines-color: white;
 
-body {
-  background-color: $body-background-color;
+//Global styles
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
 }
-#contactform {
-  background-color: $form-background-color;
-  input,
-  textarea {
-    background-color: $input-color;
-    flex: 2;
-  }
-  @media (min-width: $break-small) {
-    & {
-      width: 90%;
-      max-width: 700px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  }
-  @media (min-width: $break-large) {
-    & {
-      width: 70%;
-      max-width: 900px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  }
-}
+
+//mixin
 @mixin center($width: 90%, $max-width) {
   width: $width;
   max-width: $max-width;
@@ -69,4 +50,49 @@ body {
       @content;
     }
   }
+}
+body {
+  background-color: $body-background-color;
+}
+#contactform > {
+  background-color: $form-background-color;
+  a:hover {
+    background-color: antiquewhite;
+  }
+  input,
+  textarea {
+    background-color: $input-color;
+    flex: 2;
+  }
+  @include breakpoint(medium) {
+    @include center(700px, 50%);
+  }
+  @include breakpoint(large) {
+    @include center(900px, 70%);
+  }
+}
+#contactform fieldset > div {
+  @include flex-container(column);
+  label {
+    flex: 1;
+    text-align: left;
+  }
+  @include breakpoint(medium) {
+    @include flex-container(row);
+    justify-content: space-between;
+    margin-bottom: 1em;
+    label {
+      text-align: right;
+      margin-right: 1em;
+    }
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $headlines-color;
 }
