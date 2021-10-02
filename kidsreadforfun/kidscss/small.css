@@ -7,7 +7,7 @@ body {
 h1,
 nav,
 li {
-  font-family: "lora", serif;
+  font-family: lora, serif;
   text-align: right;
   list-style-type: none;
   margin-right: 0.5rem;
@@ -15,7 +15,7 @@ li {
 }
 
 h1 a:link {
-  color: white;
+  background-color: white;
 }
 
 a:link {
@@ -23,7 +23,7 @@ a:link {
 }
 
 main {
-  background-color: #f3f0e9;
+  background-color: #6495ed;
 }
 
 article {
@@ -43,7 +43,7 @@ article {
 }
 
 .post-content a:hover {
-  color: #6495ed;
+  background-color: antiquewhite;
 }
 
 /*# sourceMappingURL=small.css.map */
