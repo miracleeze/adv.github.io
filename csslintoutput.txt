@@ -1,0 +1,13 @@
+
+styles.css
+  1:24  ×  Expected whitespace before "*/"                 comment-whitespace-inside             
+  3:2   ×  Expected double colon pseudo-element notation   selector-pseudo-element-colon-notation
+  4:2   ×  Expected double colon pseudo-element notation   selector-pseudo-element-colon-notation
+ 15:1   ×  Expected empty line before rule                 rule-empty-line-before                
+ 18:1   ×  Expected empty line before rule                 rule-empty-line-before                
+ 23:1   ×  Expected empty line before at-rule              at-rule-empty-line-before             
+ 31:1   ×  Expected empty line before at-rule              at-rule-empty-line-before             
+ 49:1   ×  Expected empty line before rule                 rule-empty-line-before                
+ 53:1   ×  Expected empty line before at-rule              at-rule-empty-line-before             
+ 65:3   ×  Expected empty line before rule                 rule-empty-line-before
+
